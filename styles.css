@@ -215,4 +215,94 @@ header{
     box-shadow: 0px 2px 4px 0px rgba(115, 115, 115, 0.25);
 
     padding: 20px;
+    height: 300px;
+    
+
+    color: #075985;
+    font-size: 18px;
+}
+
+.departments__adress{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.departments__mode{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.departments__icon{
+    color: #0284c7;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.departments__icon-adress{
+    font-size: 35px;
+    padding-right: 4px;
+}
+
+.departments__phone{
+    font-weight: 600;
+    
+}
+
+footer{
+    background-color: #F0F9FF;
+    color: #075985;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title-network{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.network{
+    display: flex;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.contact1{
+    flex-grow: 1;
+    width: calc((100% - 20px) / 2)
+}
+
+.contact__phone-mail{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.contact__title{
+    display: flex;
+    font-weight: 600;
+}
+
+.contact_icon{
+    color: #0284c7;
+    margin-right: 10px;
+}
+
+.license{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 80px;
+    gap: 10px;
+}
+
+.confidentiality{
+    border-left: 2px solid #075985;
+    padding-left: 10px;
 }
