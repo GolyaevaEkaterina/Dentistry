@@ -8,8 +8,8 @@
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <script src="https://kit.fontawesome.com/3e14bf8e35.js" crossorigin="anonymous"></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -20,11 +20,11 @@
               <h3 class="navigation__header">Dento Plus</h3>
             </div>
             <div class="navigation-all">
-              <a class="navigation__link" href="">Услуги</a>
-              <a class="navigation__link" href="">О нас</a>
+              <a class="navigation__link" href="#services">Услуги</a>
+              <a class="navigation__link" href="#about-us">О нас</a>
               <a class="navigation__link" href="">Врачи</a>
-              <a class="navigation__link" href="">Отзывы</a>
-              <a class="navigation__link" href="">Отделения</a>
+              <a class="navigation__link" href="#reviews">Отзывы</a>
+              <a class="navigation__link" href="#department">Отделения</a>
             </div>
           </div>
         </nav>
@@ -41,7 +41,7 @@
   
         </div>
         <div>
-          <h2 class="header__second">НАШИ УСЛУГИ</h2>
+          <h2 class="header__second" id="services">НАШИ УСЛУГИ</h2>
           <div class="services-background">
             <div class="section services-flex-out">
 
@@ -50,21 +50,21 @@
               <div class="services-flex">
 
                 <div class="services services-1">
-                  <p>02</p>
-                  <p>Лечение и рестоврация зубов</p>
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <p class="services__number">02</p>
+                  <p class="services__text">Лечение и рестоврация зубов</p>
+                  <img class="services__icon" src="images/Arrow 1.png">
                 </div>
 
                 <div class="services services-2">
-                  <p>03</p>
-                  <p>Протезирование зубов</p>
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <p class="services__number">03</p>
+                  <p class="services__text">Протезирование зубов</p>
+                  <img class="services__icon" src="images/Arrow 1.png">
                 </div>
 
                 <div class="services services-3">
-                  <p>04</p>
-                  <p>Профессиональная чистка зубов</p>
-                  <i class="fa-solid fa-arrow-right"></i>
+                  <p class="services__number">04</p>
+                  <p class="services__text">Профессиональная чистка зубов</p>
+                  <img class="services__icon" src="images/Arrow 1.png">
                 </div>
 
               </div>
@@ -77,7 +77,7 @@
 
         <div class="about-us-background">
           <div class="section">
-            <h2 class="header__second">О КЛИНИКЕ</h2>
+            <h2 class="header__second" id="about-us">О КЛИНИКЕ</h2>
             <p class="about-us__text">Клиника Dentо Plus – это крупнейший стоматологический центр для взрослых и детей, ведущий свою историю с 2002 года.</p> 
             <p class="about-us__text">Мы работаем для вас ежедневно, включая выходные и праздничные дни, предоставляя качественное медицинское обслуживание без проволочек и очередей, комплексно и в сжатые сроки.</p> 
             <p class="about-us__text">Мы не стоим на месте, мы постоянно развиваемся, непрерывно совершенствуем свою работу. Именно поэтому у нас так много приверженных пациентов, которые нас рекомендуют и приходят к нам семьями. Доверяя свое здоровье и здоровье ваших детей нашим специалистам.</p>
@@ -87,7 +87,7 @@
 
         <div>
           <div class="section">
-            <h2 class="header__second">ВАШИ ОТЗЫВЫ</h2>
+            <h2 class="header__second" id="reviews">ВАШИ ОТЗЫВЫ</h2>
             <div class="reviews">
 
               <div class="review">
@@ -129,7 +129,7 @@
         <div class="department-background">
           <div class="section">
 
-            <h2 class="header__second">НАШИ ОТДЕЛЕНИЯ</h2>
+            <h2 class="header__second" id="department">НАШИ ОТДЕЛЕНИЯ</h2>
 
             <div class="department-flex">
 
@@ -141,7 +141,7 @@
                 <div class="departments__mode">
                   <i class="fa-solid fa-circle-exclamation departments__icon"></i>
                   <div>
-                    <h5>Режим работы:</h5>
+                    <h5 class="departments__mode_title">Режим работы:</h5>
                     <p>Пн-Вс с 8:00 до 18:00 без перерывов и выходных</p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@
                 <div class="departments__mode">
                   <i class="fa-solid fa-circle-exclamation departments__icon"></i>
                   <div>
-                    <h5>Режим работы:</h5>
+                    <h5 class="departments__mode_title">Режим работы:</h5>
                     <p>Пн-Вс с 8:00 до 18:00 без перерывов и выходных</p>
                   </div>
                 </div>
@@ -171,7 +171,7 @@
                 <div class="departments__mode">
                   <i class="fa-solid fa-circle-exclamation departments__icon"></i>
                   <div>
-                    <h5>Режим работы:</h5>
+                    <h5 class="departments__mode_title">Режим работы:</h5>
                     <p>Пн-Вс с 8:00 до 18:00 без перерывов и выходных</p>
                   </div>
                 </div>
