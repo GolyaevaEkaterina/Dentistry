@@ -4,10 +4,141 @@
       <meta charset="utf-8"/>
       <title>Стоматологическая клиника</title>
       <link rel="stylesheet" type="text/css" href="reset.css" />
-      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <link rel="stylesheet" type="text/css" href="doctors.css" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <script src="https://kit.fontawesome.com/3e14bf8e35.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     </head>
-
     
-        
+    <body>
+      <nav>
+        <div class="section navigation">
+          <div>
+            <h3 class="navigation__header">Dento Plus</h3>
+          </div>
+          <div class="navigation-all">
+            <a class="navigation__link" href="#services">Услуги</a>
+            <a class="navigation__link" href="#about-us">О нас</a>
+            <a class="navigation__link" href="">Врачи</a>
+            <a class="navigation__link" href="#reviews">Отзывы</a>
+            <a class="navigation__link" href="#department">Отделения</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="section">
+          <h2 class="header__second">СПЕЦИАЛИСТЫ НАШЕЙ КЛИНИКИ</h2>
+          <p class="doctors-text">Наши врачи ​имеют высокую квалификацию, значительный опыт работы, посещают различные семинары и конференции, повышая свой профессиональный уровень. Результаты лечения в нашей стоматологии подтверждают точность определения диагноза и выбранного метода лечения.
+          </p>
+          <form class="doctors-form" action="">
+            <button class="doctors-form__button" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input class="doctors-form__input" placeholder="ФИО Врача" type="search"/>
+          </form>
+          <div class="doctors-list">
+            <div class="doctor">
+              <img class="doctor__photo" src="images/doctor-1.png"/>
+              <p class="doctor__name">Ватман Анна Сергеевна</p>
+              <p class="doctor__skill">Стоматолог-гигиенист</p>
+              <button class="doctor__button">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="doctor">
+              <img class="doctor__photo" src="images/doctor-2.png"/>
+              <p class="doctor__name">Задкова Виктория Сергеевна</p>
+              <p class="doctor__skill">Стоматолог-терапевт</p>
+              <button class="doctor__button">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="doctor">
+              <img class="doctor__photo" src="images/doctor-3.png"/>
+              <p class="doctor__name">Соколов Иван Игорьевич</p>
+              <p class="doctor__skill">Стоматолог-терапевт</p>
+              <button class="doctor__button">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="doctor">
+              <img class="doctor__photo" src="images/doctor-4.png"/>
+              <p class="doctor__name">Неверов Сергей Сергеевич</p>
+              <p class="doctor__skill">Хирург-имплантолог</p>
+              <button class="doctor__button">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="doctor">
+              <img class="doctor__photo" src="images/doctor-5.png"/>
+              <p class="doctor__name">Коняшкина Ольга Ивановна</p>
+              <p class="doctor__skill">Стоматолог-терапевт</p>
+              <button class="doctor__button">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="doctor">
+              <img class="doctor__photo" src="images/doctor-6.png"/>
+              <p class="doctor__name">Шпаков Дмитрий Сергеевич</p>
+              <p class="doctor__skill">Стоматолог-ортопед</p>
+              <button class="doctor__button">ПОДРОБНЕЕ</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="section">
+          <div class="title-network">
+            <p >2002 «Dentо Plus» - семейная стоматологическая клиника в Санкт-Петербурге.</p>
+
+            <div class="network">
+              <p>Мы в соц сетях</p>
+              <i class="fa-brands fa-facebook contact_icon"></i>
+            </div>
+          </div>
+
+          <div class="contact">
+
+            <div class="contact__adress contact1">
+              <div class="contact__title">
+                <i class="fa-solid fa-location-dot contact_icon"></i>
+                <h6>НАШИ АДРЕСА:</h6>
+              </div>
+              <div>
+                <p>Санкт-Петербург, 324372, ул. Ильюшина, 5, к. 3</p>
+                <p>Санкт-Петербург, 324372, ул. Плюшина, 8, к. 1</p>
+                <p>Санкт-Петербург, 324372, ул.Галюшина, 28</p>
+              </div>
+            </div>
+
+
+            <div class="contact__phone-mail contact1">
+              <div class="contact__phone">
+                <div class="contact__title">
+                  <i class="fa-solid fa-square-phone contact_icon"></i>
+                  <h6>НАШИ ТЕЛЕФОНЫ:</h6>
+                </div>
+                <div>
+                  <p>+7 (823) 555-357-31</p>
+                  <p>+7 (823) 555-357-32</p>
+                  <p>+7 (823) 555-357-33</p>
+                </div>
+              </div>
+
+              
+              <div class="contact__mail">
+                <div class="contact__title">
+                  <i class="fa-solid fa-envelope contact_icon"></i>
+                  <h6>НАША ПОЧТА:</h6>
+                </div>
+                <div>
+                  <p>DentoPlus@gmail.com</p>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="license">
+            <div>Лицензия</div>
+            <div class="confidentiality">Политика конфиденциальности</div>
+          </div>
+
+        </div>
+      </footer>
     </body>
+</html>    
