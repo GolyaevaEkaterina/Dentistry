@@ -208,8 +208,155 @@ footer{
     padding-bottom: 80px;
     gap: 10px;
 }
+.license__link{
+    text-decoration: none;
+    color: #075985;
+}
 
 .confidentiality{
     border-left: 2px solid #075985;
     padding-left: 10px;
+}
+@media (max-width: 768px) {
+    .navigation-all{
+        padding-right: 10px;
+    }
+    .doctors-list{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .doctor{
+        width: calc((100% - 20px) / 2);
+    
+        margin-bottom: 80px;
+    }
+    .doctor__photo{
+        max-width: 350px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    
+    .title-network{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title-network__text{
+        width: 60%;
+    }
+    
+    .contact{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .license{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section{
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navigation{
+        flex-direction: column; 
+        align-items: start;   
+        
+    }
+    .navigation-all{
+        gap: 10px;
+    }
+    
+    .navigation__header{
+        font-size: 22px;
+    }
+    
+    .navigation__link{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .header__second{
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .doctors-text{
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    
+    .doctors-form{
+        max-width: 600px;
+        margin:  10px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+    }
+    .doctors-form__button{
+        font-size: 15px;
+    }
+    
+    .doctors-form__input{
+        font-size: 15px;
+    }
+    .doctors-list{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .doctor{ 
+        flex-grow: 1;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .doctor__photo{
+        max-width: 300px;
+    }
+    .doctor__name{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .doctor__skill{
+        font-size: 15px;
+    }
+    .doctor__button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-width: 150px;
+        font-size: 16px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    .title-network{
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 70%;
+        padding-left: 10px;
+    }
+    
+    .network{
+        padding-top: 10px;
+    }
+    
+    .contact{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .contact__phone-mail{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact1{
+        width: 80%;
+    }
+    
+    .license{
+        justify-content: start;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
 }

@@ -112,7 +112,6 @@ header{
     font-weight: 400;
     padding-bottom: 30px;
     line-height: 30px;
-
 }
 
 .caries__text2{
@@ -168,7 +167,7 @@ header{
 
 .services-background{
     background-color: #0284C7;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .services-flex-out{
@@ -220,7 +219,6 @@ header{
     font-size: 50px;
     text-shadow: 5px 5px 5px 5px #262626;
     font-weight: 100;
-
 }
 .services-1{
     border-radius: 20px;
@@ -289,8 +287,209 @@ footer{
     padding-bottom: 80px;
     gap: 10px;
 }
+.license__link{
+    text-decoration: none;
+    color: #075985;
+}
 
 .confidentiality{
     border-left: 2px solid #075985;
     padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .navigation-all{
+        padding-right: 10px;
+    }
+    header{
+        padding-top: 70px ;
+        padding-bottom: 70px ;
+        padding-left: 10px;
+    }
+
+    .header__second{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }  
+    .header__second-caries{
+        padding-left: 10px;
+    } 
+    .caries{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 50px;
+    }
+    .caries__image{
+        height: 400px;
+        object-position: top;
+    }
+    .caries__text{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 16px;
+        padding-bottom: 10px;
+    }
+    .services-flex-out{
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .services-flex{
+        gap: 30px;
+    }
+    .services__icon{
+        right: 10px;
+        bottom: 10px;
+    }
+    .services-background{
+        margin-bottom: 80px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    
+    .title-network{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title-network__text{
+        width: 60%;
+    }
+    
+    .contact{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .license{
+        padding-right: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .section{
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navigation{
+        flex-direction: column; 
+        align-items: start;   
+        
+    }
+    .navigation-all{
+        gap: 10px;
+    }
+    
+    .navigation__header{
+        font-size: 22px;
+    }
+    
+    .navigation__link{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    header{
+        width: 100%;
+        padding-top: 50px ;
+        padding-bottom: 50px ;
+        padding-left: 10px;
+    }
+    .header__main{
+        font-size: 30px;
+    }   
+    
+    .header__text{
+        font-size: 14px;
+        width: 70%;
+    }
+    .header__button{
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .header__second-caries{
+        font-size: 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
+    .caries{
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .caries__image{
+        height: 250px;
+        object-position: top;
+    }
+    .caries__text{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 10px;
+    }
+    .header__second{
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .prices__text{
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 30px 10px 40px;
+    }
+    .services-flex{
+        flex-direction: column;
+        gap: 20px;  
+    }
+    .services{
+         flex-basis: 150px;
+         padding: 10px 10px 20px 10px;
+    }  
+    .services__icon{
+         right: 10px;
+         bottom: 10px;
+         font-size: 40px;
+    } 
+    .services__text{
+         width: 40%;
+         font-size: 14px;
+    } 
+    footer{
+        font-size: 15px;
+    }
+    .title-network{
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 70%;
+        padding-left: 10px;
+    }
+    
+    .network{
+        padding-top: 10px;
+    }
+    
+    .contact{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .contact__phone-mail{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact1{
+        width: 80%;
+    }
+    
+    .license{
+        justify-content: start;
+        padding-bottom: 40px;
+        padding-left: 10px;
+    }
 }
