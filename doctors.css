@@ -1,3 +1,9 @@
+:root{
+    --color-main:#0284C7;
+    --color-main-dark: #075985;
+    --color-header-second: #0369A1;
+    --color-light: #F0F9FF;
+}
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -16,7 +22,7 @@ main{
     margin: 0 auto;
 }
 nav{
-    background-color: #0284C7;
+    background-color: var(--color-main);
     height: 60px;
 }
 
@@ -37,19 +43,19 @@ nav{
 .navigation__header{
     font-size: 26px;
     font-weight: 700;
-    color: #fafafa;
+    color: var(--color-light);
 }
 
 .navigation__link{
     text-decoration: none;
-    color: #fafafa;
+    color: var(--color-light);
     font-size: 22px;
     font-weight: 600;
     
 }
 
 .header__second{
-    color: #0369A1;
+    color: var(--color-header-second);
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -139,7 +145,7 @@ nav{
 }
 .doctor__button{
     border-radius: 10px;
-    border: 1px solid #0284C7;
+    border: 1px solid var(--color-main);
     background: #FFF;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -147,16 +153,21 @@ nav{
     max-width: 244px;
     width: 100%;
 
-    color: #0284C7;
+    color: var(--color-main);
     text-align: center;
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 700;
 }
 
+.doctor__button:hover{
+    background: #bae6fd;
+    cursor: pointer;
+}
+
 footer{
-    background-color: #F0F9FF;
-    color: #075985;
+    background-color: var(--color-light);
+    color: var(--color-main-dark);
     font-size: 18px;
     font-weight: 400;
 }
@@ -169,9 +180,14 @@ footer{
 }
 
 .network{
-    display: flex;
-    font-weight: 600;
+    display: flex;    
     gap: 10px;
+}
+
+.network__link{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-main-dark);
 }
 
 .contact{
@@ -197,7 +213,7 @@ footer{
 }
 
 .contact_icon{
-    color: #0284c7;
+    color: var(--color-main);
     margin-right: 10px;
 }
 
@@ -210,11 +226,11 @@ footer{
 }
 .license__link{
     text-decoration: none;
-    color: #075985;
+    color: var(--color-main-dark);
 }
 
 .confidentiality{
-    border-left: 2px solid #075985;
+    border-left: 2px solid var(--color-main-dark);
     padding-left: 10px;
 }
 @media (max-width: 768px) {
