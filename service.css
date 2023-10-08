@@ -1,3 +1,10 @@
+:root{
+    --color-main:#0284C7;
+    --color-main-dark: #075985;
+    --color-button: #0EA5E9;
+    --color-header-second: #0369A1;
+    --color-light: #F0F9FF;
+}
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -12,7 +19,7 @@ body{
     margin: 0 auto;
 }
 nav{
-    background-color: #0284C7;
+    background-color: var(--color-main);
     height: 60px;
 }
 
@@ -33,12 +40,12 @@ nav{
 .navigation__header{
     font-size: 26px;
     font-weight: 700;
-    color: #fafafa;
+    color: var(--color-light);
 }
 
 .navigation__link{
     text-decoration: none;
-    color: #fafafa;
+    color: var(--color-light);
     font-size: 22px;
     font-weight: 600;
     
@@ -64,11 +71,11 @@ header{
 }
 
 .colortext{
-    color: #0284C7;
+    color: var(--color-main);
 }
 
 .header__text{
-    color: #0C4A6E;
+    color: var(--color-main-dark);
     font-weight: 400;
     line-height: 18px;
     padding-bottom: 50px ;
@@ -77,19 +84,24 @@ header{
 .header__button{
     width: 240px;
     height: 50px;
-    color: #F0F9FF;
+    color: var(--color-light);
     text-align: center;
     font-size: 18px;
     font-weight: 700;
     border-radius: 10px;
-    border: 1px solid #0EA5E9;
-    background: #0EA5E9;
+    border: 1px solid var(--color-button);
+    background: var(--color-button);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 
+.header__button:hover{
+    background: var(--color-main-dark);
+    cursor: pointer;
+}
+
 .header__second-caries{
-    color: #0369A1;
+    color: var(--color-header-second);
     text-align: start;
     font-family: Open Sans;
     font-size: 48px;
@@ -106,7 +118,7 @@ header{
 }
 
 .caries__text{
-    color: #0B4269;
+    color: var(--color-main-dark);
     text-align: justify;
     font-size: 24px;
     font-weight: 400;
@@ -129,7 +141,7 @@ header{
 }
 
 .header__second{
-    color: #0369A1;
+    color: var(--color-header-second);
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -138,7 +150,7 @@ header{
 }
 
 .prices__text{
-    color: #075985;
+    color: var(--color-main-dark);
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
@@ -147,7 +159,7 @@ header{
 
 .prices__text1{
     border-radius: 30px;
-    background: #F0F9FF;
+    background: var(--color-light);
     margin-bottom: 12px;
 }
 
@@ -166,7 +178,7 @@ header{
 }
 
 .services-background{
-    background-color: #0284C7;
+    background-color: var(--color-main);
     margin-bottom: 100px;
 }
 
@@ -194,7 +206,7 @@ header{
     height: 183px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     position: relative;
-    color: #F0F9FF;
+    color: var(--color-light);
 
     padding: 25px 20px 35px 20px;
 }
@@ -215,7 +227,7 @@ header{
     position: absolute;
     right: 20px;
     bottom: 20px;
-    color: #F0F9FF;
+    color: var(--color-light);
     font-size: 50px;
     text-shadow: 5px 5px 5px 5px #262626;
     font-weight: 100;
@@ -234,8 +246,8 @@ header{
 }
 
 footer{
-    background-color: #F0F9FF;
-    color: #075985;
+    background-color: var(--color-light);
+    color: var(--color-main-dark);
     font-size: 18px;
     font-weight: 400;
 }
@@ -249,8 +261,13 @@ footer{
 
 .network{
     display: flex;
-    font-weight: 600;
     gap: 10px;
+}
+
+.network__link{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-main-dark);
 }
 
 .contact{
@@ -276,7 +293,7 @@ footer{
 }
 
 .contact_icon{
-    color: #0284c7;
+    color: var(--color-main);
     margin-right: 10px;
 }
 
@@ -289,11 +306,11 @@ footer{
 }
 .license__link{
     text-decoration: none;
-    color: #075985;
+    color: var(--color-main-dark);
 }
 
 .confidentiality{
-    border-left: 2px solid #075985;
+    border-left: 2px solid var(--color-main-dark);
     padding-left: 10px;
 }
 
